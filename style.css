@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+     width: 100%;
+     box-shadow: 15px 15px 20px rgba(0,0,0,0.3);
+    
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding:25px;
+    font-size: 19px;
+    
+}
+
+.logo{
+    letter-spacing: 2px;
+}
+
+.br{
+    font-weight: bold;
+}
+
+.nav-links a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    letter-spacing:  2px;
+}
+
+.BR_img {
+    position: relative;
+}
+
+.BR_img img{
+    width: 100%;
+}
+
+.text_br{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 65%;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+    
+     
+
+}  
+
+.text_br .BR {
+   font-weight: bold;
+   background-color: rgba(0, 0, 0, 0.6);
+   padding: 0 10px;
+}
+
+.img_portion{
+    padding: 0 20px;
+}
+.projects p{
+    font-size: 25px;
+    
+}
+
+.img_container{
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+}
+
+.houses{
+    position: relative;
+    width: 24%;
+}
+.house_name{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 0;
+
+}
+
+.houses img{
+    width:100%;
+} 
+
+.about_section{
+    padding: 0 20px;
+}
+
+.about{
+    font-size: 25px;
+}
+
+.member_section{
+    display: flex;
+    gap: 10px;
+}
+
+.member_section img{
+    width: 100%;
+}
+
+.role{
+    color: gray;
+}
+
+.member button{
+    padding: 5px 100px;
+    background-color: #fff;
+}
+
+.contact_section{
+    padding: 0 10px;
+}
+.contact{
+    font-size: 25px;
+}
+
+.input_section input{
+    padding: 10px 400px;
+}
+
+.message button{
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: white;
+}
+.message img{
+    width: 100%;
+}
